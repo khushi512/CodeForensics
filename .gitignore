@@ -1,0 +1,23 @@
+# Ignore data files
+data/repos/
+data/datasets/*.csv
+*.db
+
+# Models (add to git if you want to ship pre-trained)
+# models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

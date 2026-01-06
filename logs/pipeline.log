@@ -1,0 +1,109 @@
+2026-01-06 13:21:30,893 - codeforensics - INFO - 
+CodeForensics Data Pipeline
+2026-01-06 13:21:30,894 - codeforensics - INFO - ============================================================
+2026-01-06 13:21:30,894 - codeforensics - INFO - Target repos: 1
+2026-01-06 13:21:30,895 - codeforensics - INFO - Clone depth: 500, Max commits: 400
+2026-01-06 13:21:30,895 - codeforensics - INFO - 
+[1/1] Processing pallets/click
+2026-01-06 13:21:30,896 - codeforensics - INFO - 
+============================================================
+2026-01-06 13:21:30,896 - codeforensics - INFO - Processing: pallets/click
+2026-01-06 13:21:30,896 - codeforensics - INFO - ============================================================
+2026-01-06 13:27:14,767 - codeforensics - ERROR - No data collected!
+2026-01-06 13:32:21,726 - codeforensics - INFO - 
+CodeForensics Data Pipeline
+2026-01-06 13:32:21,726 - codeforensics - INFO - ============================================================
+2026-01-06 13:32:21,727 - codeforensics - INFO - Target repos: 1
+2026-01-06 13:32:21,727 - codeforensics - INFO - Clone depth: 500, Max commits: 400
+2026-01-06 13:32:21,727 - codeforensics - INFO - 
+[1/1] Processing pallets/click
+2026-01-06 13:32:21,727 - codeforensics - INFO - 
+============================================================
+2026-01-06 13:32:21,728 - codeforensics - INFO - Processing: pallets/click
+2026-01-06 13:32:21,728 - codeforensics - INFO - ============================================================
+2026-01-06 13:40:42,030 - codeforensics - ERROR - No data collected!
+2026-01-06 14:26:05,855 - codeforensics - ERROR - Dataset not found: E:\Khushboo\PROJECTS\codeSync\data\datasets\training_dataset.csv
+2026-01-06 14:32:21,787 - codeforensics - INFO - 
+CodeForensics Data Pipeline
+2026-01-06 14:32:21,788 - codeforensics - INFO - ============================================================
+2026-01-06 14:32:21,788 - codeforensics - INFO - Target repos: 1
+2026-01-06 14:32:21,788 - codeforensics - INFO - Clone depth: 500, Max commits: 400
+2026-01-06 14:32:21,788 - codeforensics - INFO - 
+[1/1] Processing pallets/click
+2026-01-06 14:32:21,788 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:32:21,789 - codeforensics - INFO - Processing: pallets/click
+2026-01-06 14:32:21,789 - codeforensics - INFO - ============================================================
+2026-01-06 14:37:08,473 - codeforensics - INFO -   Total commits: 400
+2026-01-06 14:37:08,473 - codeforensics - INFO -   Bug fixes: 99
+2026-01-06 14:37:08,474 - codeforensics - INFO -   Bug-inducing: 74
+2026-01-06 14:37:08,475 - codeforensics - INFO -   Bug rate: 18.5%
+2026-01-06 14:37:08,477 - codeforensics - INFO -   Avg complexity delta: 0.6
+2026-01-06 14:37:08,480 - codeforensics - INFO -   Avg file churn: 18.7
+2026-01-06 14:37:08,500 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:37:08,501 - codeforensics - INFO - VALIDATING DATASET
+2026-01-06 14:37:08,501 - codeforensics - INFO - ============================================================
+2026-01-06 14:37:08,519 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:37:08,519 - codeforensics - INFO - PIPELINE COMPLETE
+2026-01-06 14:37:08,519 - codeforensics - INFO - ============================================================
+2026-01-06 14:37:08,519 - codeforensics - INFO - Total commits: 400
+2026-01-06 14:37:08,521 - codeforensics - INFO - Repositories: 1
+2026-01-06 14:37:08,521 - codeforensics - INFO - Bug-inducing commits: 74
+2026-01-06 14:37:08,522 - codeforensics - INFO - Bug-inducing rate: 18.5%
+2026-01-06 14:37:08,522 - codeforensics - INFO - Saved to: E:\Khushboo\PROJECTS\codeSync\data\datasets\training_dataset.csv
+2026-01-06 14:37:49,785 - codeforensics - INFO - ============================================================
+2026-01-06 14:37:49,785 - codeforensics - INFO - Total commits: 400
+2026-01-06 14:37:49,786 - codeforensics - INFO - Repositories: 1
+2026-01-06 14:37:49,786 - codeforensics - INFO - Repos: pallets/click
+2026-01-06 14:37:49,788 - codeforensics - INFO - Date range: 2025-01-12 20:29:58 to 2025-12-31 12:21:28
+2026-01-06 14:37:49,791 - codeforensics - INFO -   Bug-inducing: 74 (18.5%)
+2026-01-06 14:37:49,791 - codeforensics - INFO -   Bug fixes: 99
+2026-01-06 14:37:49,794 - codeforensics - INFO -   hour_of_day          mean=   13.21  std=    7.02
+2026-01-06 14:37:49,795 - codeforensics - INFO -   day_of_week          mean=    2.90  std=    1.95
+2026-01-06 14:37:49,795 - codeforensics - INFO -   is_weekend           mean=    0.28  std=    0.45
+2026-01-06 14:37:49,796 - codeforensics - INFO -   py_files_modified    mean=    1.19  std=    2.80
+2026-01-06 14:37:49,796 - codeforensics - INFO -   lines_added          mean=  145.34  std=  486.11
+2026-01-06 14:37:49,796 - codeforensics - INFO -   lines_deleted        mean=   94.30  std=  296.88
+2026-01-06 14:37:49,797 - codeforensics - INFO -   net_lines            mean=   51.05  std=  224.67
+2026-01-06 14:37:49,797 - codeforensics - INFO -   complexity_delta     mean=    0.60  std=    2.23
+2026-01-06 14:37:49,798 - codeforensics - INFO -   avg_file_churn       mean=   18.71  std=   10.75
+2026-01-06 14:40:22,469 - codeforensics - INFO - 
+CodeForensics Data Pipeline
+2026-01-06 14:40:22,469 - codeforensics - INFO - ============================================================
+2026-01-06 14:40:22,470 - codeforensics - INFO - Target repos: 1
+2026-01-06 14:40:22,470 - codeforensics - INFO - Clone depth: 500, Max commits: 400
+2026-01-06 14:40:22,470 - codeforensics - INFO - 
+[1/1] Processing pallets/click
+2026-01-06 14:40:22,470 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:40:22,471 - codeforensics - INFO - Processing: pallets/click
+2026-01-06 14:40:22,471 - codeforensics - INFO - ============================================================
+2026-01-06 14:44:57,406 - codeforensics - INFO -   Total commits: 400
+2026-01-06 14:44:57,407 - codeforensics - INFO -   Bug fixes: 99
+2026-01-06 14:44:57,407 - codeforensics - INFO -   Bug-inducing: 74
+2026-01-06 14:44:57,408 - codeforensics - INFO -   Bug rate: 18.5%
+2026-01-06 14:44:57,408 - codeforensics - INFO -   Avg complexity delta: 0.6
+2026-01-06 14:44:57,410 - codeforensics - INFO -   Avg file churn: 18.7
+2026-01-06 14:44:57,419 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:44:57,420 - codeforensics - INFO - VALIDATING DATASET
+2026-01-06 14:44:57,420 - codeforensics - INFO - ============================================================
+2026-01-06 14:44:57,429 - codeforensics - INFO - 
+============================================================
+2026-01-06 14:44:57,429 - codeforensics - INFO - PIPELINE COMPLETE
+2026-01-06 14:44:57,429 - codeforensics - INFO - ============================================================
+2026-01-06 14:44:57,429 - codeforensics - INFO - Total commits: 400
+2026-01-06 14:44:57,430 - codeforensics - INFO - Repositories: 1
+2026-01-06 14:44:57,430 - codeforensics - INFO - Bug-inducing commits: 74
+2026-01-06 14:44:57,431 - codeforensics - INFO - Bug-inducing rate: 18.5%
+2026-01-06 14:44:57,431 - codeforensics - INFO - Saved to: E:\Khushboo\PROJECTS\codeSync\data\datasets\training_dataset.csv
+2026-01-06 14:45:23,588 - codeforensics - INFO - Cleaned dataset: 400 samples (dropped 0 with missing values)
+2026-01-06 14:45:23,609 - codeforensics - INFO - Training samples: 320
+2026-01-06 14:45:23,609 - codeforensics - INFO - Test samples: 80
+2026-01-06 14:45:23,609 - codeforensics - INFO - Bug-inducing rate: 18.5%
+2026-01-06 14:45:23,610 - codeforensics - INFO - 
+Training LightGBM model...
+2026-01-06 14:45:23,610 - codeforensics - INFO - Parameters: {'objective': 'binary', 'metric': 'auc', 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 8, 'num_leaves': 31, 'min_child_samples': 20, 'class_weight': 'balanced', 'verbose': -1}
+2026-01-06 14:45:26,320 - codeforensics - INFO - Best iteration: 38

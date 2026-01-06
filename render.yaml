@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: codeforensics-api
+    runtime: docker
+    repo: https://github.com/YOUR_USERNAME/codeSync  # Update this
+    branch: main
+    
+    # Environment
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: codeforensics-db
+          property: connectionString
+    
+    # Health check
+    healthCheckPath: /health
+    
+databases:
+  - name: codeforensics-db
+    plan: free  # 1GB, expires after 90 days
+    databaseName: codeforensics

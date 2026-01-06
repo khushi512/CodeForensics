@@ -107,3 +107,33 @@ CodeForensics Data Pipeline
 Training LightGBM model...
 2026-01-06 14:45:23,610 - codeforensics - INFO - Parameters: {'objective': 'binary', 'metric': 'auc', 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 8, 'num_leaves': 31, 'min_child_samples': 20, 'class_weight': 'balanced', 'verbose': -1}
 2026-01-06 14:45:26,320 - codeforensics - INFO - Best iteration: 38
+2026-01-06 15:29:37,842 - codeforensics - INFO - 
+CodeForensics Data Pipeline
+2026-01-06 15:29:37,842 - codeforensics - INFO - ============================================================
+2026-01-06 15:29:37,843 - codeforensics - INFO - Target repos: 1
+2026-01-06 15:29:37,843 - codeforensics - INFO - Clone depth: 500, Max commits: 400
+2026-01-06 15:29:37,843 - codeforensics - INFO - 
+[1/1] Processing pallets/click
+2026-01-06 15:29:37,843 - codeforensics - INFO - 
+============================================================
+2026-01-06 15:29:37,843 - codeforensics - INFO - Processing: pallets/click
+2026-01-06 15:29:37,844 - codeforensics - INFO - ============================================================
+2026-01-06 15:34:06,210 - codeforensics - INFO -   Total commits: 400
+2026-01-06 15:34:06,210 - codeforensics - INFO -   Bug fixes: 99
+2026-01-06 15:34:06,210 - codeforensics - INFO -   Bug-inducing: 74
+2026-01-06 15:34:06,211 - codeforensics - INFO -   Bug rate: 18.5%
+2026-01-06 15:34:06,211 - codeforensics - INFO -   Avg complexity delta: 0.6
+2026-01-06 15:34:06,213 - codeforensics - INFO -   Avg file churn: 18.7
+2026-01-06 15:34:06,226 - codeforensics - INFO - 
+============================================================
+2026-01-06 15:34:06,226 - codeforensics - INFO - VALIDATING DATASET
+2026-01-06 15:34:06,226 - codeforensics - INFO - ============================================================
+2026-01-06 15:34:06,235 - codeforensics - INFO - 
+============================================================
+2026-01-06 15:34:06,236 - codeforensics - INFO - PIPELINE COMPLETE
+2026-01-06 15:34:06,236 - codeforensics - INFO - ============================================================
+2026-01-06 15:34:06,236 - codeforensics - INFO - Total commits: 400
+2026-01-06 15:34:06,237 - codeforensics - INFO - Repositories: 1
+2026-01-06 15:34:06,237 - codeforensics - INFO - Bug-inducing commits: 74
+2026-01-06 15:34:06,238 - codeforensics - INFO - Bug-inducing rate: 18.5%
+2026-01-06 15:34:06,238 - codeforensics - INFO - Saved to: E:\Khushboo\PROJECTS\codeSync\data\datasets\training_dataset.csv

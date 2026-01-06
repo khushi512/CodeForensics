@@ -2,21 +2,23 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install git (needed for GitPython)
-RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+# Install system dependencies including OpenMP for LightGBM
+RUN apt-get update && \
+    apt-get install -y git libgomp1 && \
+    rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install
+# Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application
+# Copy application code
 COPY . .
 
-# Create directories
-RUN mkdir -p data/repos data/datasets models
+# Create necessary directories
+RUN mkdir -p data/repos data/datasets models logs
 
 # Expose port
 EXPOSE 8000
 
-# Run
+# Run the application
 CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]

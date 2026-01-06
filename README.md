@@ -118,7 +118,3 @@ Deployed on Render with:
 - Develop VS Code extension for real-time commit analysis
 - Improve feature engineering with code review metrics
 - Implement A/B testing framework for model improvements
-
-## License
-
-MIT
